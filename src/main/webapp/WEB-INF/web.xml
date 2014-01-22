@@ -4,15 +4,6 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="WebApp_ID" version="3.0">
 
-	<display-name>test-app</display-name>
-
-	<servlet>
-		<servlet-name>Test</servlet-name>
-		<servlet-class>testPackage.TestServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Test</servlet-name>
-		<url-pattern>/test2</url-pattern>
-	</servlet-mapping>
+	<display-name>request-headers</display-name>
 
 </web-app>
